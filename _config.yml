@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "SaeWooKkang_note"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "WooKkang"
+name                     : #"WooKkang"
 description              : "새우깡의 노트."
 url                      : "https://SaeWooKKang.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -101,10 +101,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "WooKkang"
+  name             : #"WooKkang"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : ""
-  location         : "Somewhere"
+  location         : #"Somewhere"
   email            :
   links:
     - label: "Email"
