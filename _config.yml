@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale                   : "en-US"
-title                    : "SaeWooKkang_note"
+title                    : "pac's_note"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : #"WooKkang"
-description              : "새우깡의 노트."
+description              : "Pac의 노트."
 url                      : "https://SaeWooKKang.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
