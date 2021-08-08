@@ -1,18 +1,18 @@
 # main links links
 main:
-  - title: "About"
-    url: https://mmistakes.github.io/minimal-mistakes/about/
+  - title: "Javascript"
+    url: #https://mmistakes.github.io/minimal-mistakes/about/
   - title: "Posts"
-    url: /year-archive/
-  - title: "Collections"
-    url: /collection-archive/
-  - title: "Sitemap"
-    url: /sitemap/
-  - title: "Extra Menu Item 1"
+    url: #/year-archive/
+  - title: #"Collections"
+    url: #/collection-archive/
+  - title: #"Sitemap"
+    url: #/sitemap/
+  - title: #"Extra Menu Item 1"
     url: /
-  - title: "Extra Menu Item 2"
+  - title: #"Extra Menu Item 2"
     url: /
-  - title: "Extra Menu Item Long Title"
+  - title: #"Extra Menu Item Long Title"
     url: /
 
 # sidebar navigation list sample
