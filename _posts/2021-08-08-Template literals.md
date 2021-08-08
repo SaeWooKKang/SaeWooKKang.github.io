@@ -14,7 +14,7 @@ ES5와 ES6를 비교하여 설명해보도록 하겠습니다.
   const str1 = `abc`;
   console.log(typeof str1); // string
   ```
-### 1-1 문법
+### 1-1 문법  
 
 <mark style='background-color: #ffd33d'>ES5</mark>
 
@@ -25,7 +25,7 @@ ES5와 ES6를 비교하여 설명해보도록 하겠습니다.
 백틱(back-tic) (\` \`)을 사용합니다.
 
 
-### 1-2 긴 글을 작성 할 경우 
+### 1-2 긴 글을 작성 할 경우  
 	
 <mark style='background-color: #ffd33d'>ES5</mark>  
 ``` javascript 
@@ -48,7 +48,7 @@ console.log(str2);
 //둘째줄: 긴 글 입력으로 인한 줄 바꿈
 ```
 
-## 2. 표현식을 사용할 수 있는 문자열이다.
+## 2. 표현식을 사용할 수 있는 문자열이다.  
 
 <mark style='background-color: #ffd33d'>ES5</mark>  
 ``` javascript
