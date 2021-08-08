@@ -101,6 +101,6 @@ console.log(sentence);
 
 ## Reference 
 
-https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Template_literals
+[https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Template_literals]https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Template_literals
 
 [모던 자바스크립트 핵심 가이드](http://www.yes24.com/Product/Goods/101478466)
