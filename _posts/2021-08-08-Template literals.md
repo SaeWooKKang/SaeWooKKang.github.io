@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Template liters란 ?"
+title: "Template literals란 ?"
 ---
 ## 서론
 
