@@ -28,6 +28,7 @@ ES5와 ES6를 비교하여 설명해보도록 하겠습니다.
 ### 1-2 긴 글을 작성 할 경우  
 	
 <mark style='background-color: #ffd33d'>ES5</mark>  
+
 ``` javascript 
 var str1 = "첫째줄: 긴 글 입력으로 인한 줄 바꿈\n" + "둘째줄: 긴 글 입력으로 인한 줄바꿈";
 console.log(str1); 
