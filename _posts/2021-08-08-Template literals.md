@@ -15,19 +15,19 @@ ES5와 ES6를 비교하여 설명해보도록 하겠습니다.
   console.log(typeof str1); // string
   ```
 ### 1-1 문법
-<span style="color:red">붉은 색</span>
-<span class="evidence">ES5</span>
+
+<mark style='background-color: #ffd33d'>ES5</mark>
 
 작은 따옴표 (' ') 혹은 큰 따옴표 (" ")을 사용했습니다.
 	
-==ES6==
+<mark style='background-color: #ffd33d'>ES6</mark>
 	
 백틱(back-tic) (\` \`)을 사용합니다.
 
 
 ### 1-2 긴 글을 작성 할 경우 
 	
-ES5  
+<mark style='background-color: #ffd33d'>ES5</mark>  
 ``` javascript 
 var str1 = "첫째줄: 긴 글 입력으로 인한 줄 바꿈\n" + "둘째줄: 긴 글 입력으로 인한 줄바꿈";
 console.log(str1); 
@@ -36,7 +36,7 @@ console.log(str1);
 //둘째줄: 긴 글 입력으로 인한 줄 바꿈
 ```
 
-ES6  
+<mark style='background-color: #ffd33d'>ES6</mark> 
 
 Template literals을 사용할 경우 문자열 구조를 줄바꿈으로 보다 간단하게 표현 가능합니다.
 ``` javascript
@@ -50,13 +50,13 @@ console.log(str2);
 
 ## 2. 표현식을 사용할 수 있는 문자열이다.
 
-ES5  
+<mark style='background-color: #ffd33d'>ES5</mark>  
 ``` javascript
 var expression = "표현식";
 var  str1 = "문자열작성과 " + expression + " 사용(expression)";
 ```
 
-ES6  
+<mark style='background-color: #ffd33d'>ES6</mark>  
 ``` javascript
 const expression = `표현식`;
 const str2 = `문자열 작성과 ${expression} 사용(expression)`;
