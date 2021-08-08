@@ -37,7 +37,7 @@ console.log(str1);
 //둘째줄: 긴 글 입력으로 인한 줄 바꿈
 ```
 
-<mark style='background-color: #ffd33d'>ES6</mark> 
+<mark style='background-color: #ffd33d'>ES6</mark>  
 
 Template literals을 사용할 경우 문자열 구조를 줄바꿈으로 보다 간단하게 표현 가능합니다.
 ``` javascript
