@@ -9,7 +9,9 @@ ES6에서는 기존의 ES5체제에서의 Template strings를 Template literals�
 ES5와 ES6를 비교하여 설명해보도록 하겠습니다.
 
 
-## 1. Template은 문자열이다.
+## 1. Template은 문자열이다.  
+런타임에 일반 문자열로 변환되어 처리
+
   ``` javascript
   const str1 = `abc`;
   console.log(typeof str1); // string
@@ -28,6 +30,7 @@ ES5와 ES6를 비교하여 설명해보도록 하겠습니다.
 ### 1-2 긴 글을 작성 할 경우  
 	
 <mark style='background-color: #ffd33d'>ES5</mark>  
+개행이 허용되지 않고, 이스케이프 시퀀스를 사용해야 합니다.
 
 ``` javascript 
 var str1 = "첫째줄: 긴 글 입력으로 인한 줄 바꿈\n" + "둘째줄: 긴 글 입력으로 인한 줄바꿈";
@@ -36,6 +39,7 @@ console.log(str1);
 //첫째줄: 긴 글 입력으로 인한 줄 바꿈
 //둘째줄: 긴 글 입력으로 인한 줄 바꿈
 ```
+
 
 <mark style='background-color: #ffd33d'>ES6</mark>  
 
@@ -75,7 +79,7 @@ const str2 = `문자열 작성과 ${expression} 사용(expression)`;
 let ribbonPig = {
     HP: 80,
     MP: 10
-};
+};// 변수명이 ribbonPig이고 프로퍼티로 HP와 MP를 가진 객체
 
 function tagFunc(string, hp, mp){
     let name = string[0].substr(0, 4);//리본돼지
@@ -83,10 +87,10 @@ function tagFunc(string, hp, mp){
     return `${name} HP: ${hp} MP: ${mp}`;
 } 
 
-let sentence = tagFunc`리본돼지의 체력은 ${ribbonPig.HP}이고 마나는 ${ribbonPig.MP}이다.`;
+let sentence = tagFunc`리본돼지의 체력은 ${ribbonPig.HP}이고, 마나는 ${ribbonPig.MP}이다.`;
 
 console.log(sentence);
-//리본돼지 HP: 80 MP: 10
+//리본돼지의 체력은 80이고, 마나는 10이다.
 ```
 템플릿은 함수에 첫번째 인자로 **문자열을 배열**로 담는데, 그 구분자 역할을 **표현식**으로 합니다.
 
@@ -105,3 +109,5 @@ console.log(sentence);
 [https://developer.mozilla.org](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Template_literals)
 
 [모던 자바스크립트 핵심 가이드](http://www.yes24.com/Product/Goods/101478466)
+
+[모던 자바스크립트 Deep Dive](http://www.yes24.com/Product/Goods/92742567)
