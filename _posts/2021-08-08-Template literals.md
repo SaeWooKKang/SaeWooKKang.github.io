@@ -9,7 +9,7 @@ ES6에서는 기존의 ES5체제에서의 Template strings를 Template literals�
 ES5와 ES6를 비교하여 설명해보도록 하겠습니다.
 
 
-## 1. Template은 문자열이다.  
+## 1. Template literal은 문자열이다.  
 런타임에 일반 문자열로 변환되어 처리
 
   ``` javascript
