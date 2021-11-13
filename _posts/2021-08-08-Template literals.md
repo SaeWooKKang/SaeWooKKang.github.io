@@ -9,7 +9,7 @@ ES6에서는 기존의 ES5체제에서의 Template strings를 Template literals�
 ES5와 ES6를 비교하여 설명해보도록 하겠습니다.
 
 
-## 1. Template literal은 문자열이다.  
+## 1. Template literal은 문자열 타입 생성 방식중 하나다.
 런타임에 일반 문자열로 변환되어 처리
 
   ``` javascript
@@ -56,7 +56,7 @@ console.log(str2);
 ## 2. 표현식을 사용할 수 있는 문자열이다.  
 
 보통 문자열은 화면에 출력하기 위해서 사용하는데 문자열과 표현식을 섞어서 쓸 때가 많습니다.
-이럴때 템플리 리터럴을 사용하면 가독성도 좋고 편리합니다.
+이럴때 템플릿 리터럴을 사용하면 가독성도 좋고 편리합니다.
 
 <mark style='background-color: #ffd33d'>ES5</mark>  
 ``` javascript
@@ -69,7 +69,7 @@ var  str1 = "문자열작성과 " + expression + " 사용(expression)";
 const expression = `표현식`;
 const str2 = `문자열 작성과 ${expression} 사용(expression)`;
 ```
-템플릿 리터럴에 표현식은 ${} 안에 작성합니다.
+템플릿 리터럴에 표현식은 ${ } 안에 작성합니다.
 
 ## 3. Tegged templates
 
