@@ -2,7 +2,7 @@
 layout: single
 title: "Template literals란 ?"
 ---
-## 서론
+## 들어가며
 
 ES6에서는 기존의 ES5체제에서의 Template strings를 Template literals로 명칭이 변경되었습니다.  
 
@@ -24,7 +24,7 @@ ES5와 ES6를 비교하여 설명해보도록 하겠습니다.
 	
 <mark style='background-color: #ffd33d'>ES6</mark>
 	
-백틱(back-tic) (\` \`)을 사용합니다.
+기존의 작은 따옴표, 큰 따옴표에서 추가되어 백틱(back-tic) (\` \`)을 사용할 수 있습니다.
 
 
 ### 1-2 긴 글을 작성 할 경우  
@@ -43,7 +43,7 @@ console.log(str1);
 
 <mark style='background-color: #ffd33d'>ES6</mark>  
 
-Template literals을 사용할 경우 문자열 구조를 줄바꿈으로 보다 간단하게 표현 가능합니다.
+Template literals을 사용할 경우 문자열 구조를 줄바꿈으로 보다 간단하게 표현합니다.
 ``` javascript
 const str2 = `첫째줄: 긴 글 입력으로 인한 줄 바꿈
 둘째줄: 긴 글 입력으로 인한 줄 바꿈`;
@@ -54,6 +54,9 @@ console.log(str2);
 ```
 
 ## 2. 표현식을 사용할 수 있는 문자열이다.  
+
+보통 문자열은 화면에 출력하기 위해서 사용하는데 문자열과 표현식을 섞어서 쓸 때가 많습니다.
+이럴때 템플리 리터럴을 사용하면 가독성도 좋고 편리합니다.
 
 <mark style='background-color: #ffd33d'>ES5</mark>  
 ``` javascript
@@ -66,9 +69,7 @@ var  str1 = "문자열작성과 " + expression + " 사용(expression)";
 const expression = `표현식`;
 const str2 = `문자열 작성과 ${expression} 사용(expression)`;
 ```
-표현식을 플레이스 홀더인 $(dollar sign) 과  {} 중괄호(curly brace)로 감싸서 작성합니다.
-	
-\> 문자열과 표현식을 반복해서 작성할 경우 효과적으로 작성할 수 있습니다.
+템플릿 리터럴에 표현식은 ${} 안에 작성합니다.
 
 ## 3. Tegged templates
 
