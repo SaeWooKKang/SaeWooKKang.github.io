@@ -142,6 +142,26 @@ DOM은 js코드를 이용해 제어할 수 있도록 DOM API를 제공하는데 
 
 ***
 
+
+## 정리
+ 
+```javascript
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="UTF-8"> //UTF-8로 인코딩
+      <link rel="style" href="style.css">//HTML파싱 중단, CSS파일을 파싱 CSSOM생성
+    </head>// 다시 HTML 파싱
+    <body>
+      <h1>Hellow world!</h1>
+      // DOM 생성 완료, CSSOM과 결합하여 렌더 트리 생성 -> Layout -> Paint
+      <script src="app.js"></script> //JS 파싱 시작 -> AST -> 바이트코드 -> 인터프리터에 의한 실행  
+    </body>
+  </html>
+```
+
+***
+
 > **참조**  
 > 
 > [모던 자바스크립트 Deep Dive](http://www.yes24.com/Product/Goods/92742567)  
