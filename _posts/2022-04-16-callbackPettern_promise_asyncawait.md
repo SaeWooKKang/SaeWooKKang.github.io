@@ -1,4 +1,7 @@
-# 콜백패턴, 프로미스, async/await의 이해
+---
+layout: single
+title: " 콜백패턴, 프로미스, async/await의 이해'
+---
 
 ## 목차
 - 콜백패턴 장점
